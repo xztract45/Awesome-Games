@@ -13,9 +13,8 @@
 }
 .Logo {
 	margin: 8px;
-box-shadow: 0px 0px 15px 5px transparent;
-transition: all 0.7s ease;
+	transition: all 0.7s ease;
 }
 .Logo:hover {
-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+	transform:scale(1.08);
 }
