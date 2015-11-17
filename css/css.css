@@ -12,9 +12,18 @@
 	border-bottom-right-radius: 2em 1.3em;
 }
 .Logo {
+	float: left;
 	margin: 8px;
 	transition: all 0.7s ease;
 }
 .Logo:hover {
 	transform:scale(1.08);
+}
+.Container {
+	float: left;
+	width:auto;
+	margin-left: 120px;
+}
+h2{
+	color: black;
 }
