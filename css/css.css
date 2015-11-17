@@ -1,10 +1,14 @@
 .Background {
    background-color: #EDEEF1;
 }
-
+p{
+	text-align: center;
+	font-size: 20px;
+}
 .Header {
 	background: linear-gradient(to right, #FF8400 0%,#ff423a 100%);
 	position: fixed;
+	float:center;
 	width: 100.5%;
 	height: 65px;
 	margin-top:-10px;
@@ -17,4 +21,12 @@
 }
 .Logo:hover {
 	transform:scale(1.08);
+}
+.beskrivning{
+height: 500px;
+width: 60%;
+float: right;
+background-color: #FF8400;
+border-radius: 10px;
+margin-top: 65px;
 }
