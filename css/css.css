@@ -22,13 +22,21 @@
 .Container {
 	float: left;
 	width:auto;
-	margin-left: 100px;
+	margin-left: 80px;
 }
 h2{
 	color: black;
 	font-family: mentone-semibol;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+	color: black;
 }
 @font-face	{
 	font-family: mentone-semibol;
 	src: url('../font/mentone-semibol.otf');
+}
+#current {
+	text-decoration: underline;
 }
