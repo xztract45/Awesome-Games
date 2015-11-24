@@ -22,7 +22,8 @@
 .Container {
 	float: left;
 	width:auto;
-	margin-left: 80px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 h2{
 	color: black;
@@ -39,4 +40,7 @@ a {
 }
 #current {
 	text-decoration: underline;
+}
+form {
+	margin-top: 23.5px;
 }
