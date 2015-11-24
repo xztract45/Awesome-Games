@@ -46,3 +46,13 @@ a {
 #current {
 	text-decoration: underline;
 }
+.beskrivning{
+height:800px;
+width:600px;
+background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+float:right;
+margin: 65px 20px 10px 0px;
+border-radius: 15px;
+text-align: center;
+box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
+}
