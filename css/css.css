@@ -63,3 +63,16 @@ text-align: center;
 box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
 
+#searchbox
+{
+    background-color: #eaf8fc;
+    background-image: linear-gradient(#fff, #d4e8ec);
+    border-radius: 35px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #a4c3ca #83afb7;            
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    margin: 12px  auto 50px;
+    overflow: hidden; /* Clear floats *//
