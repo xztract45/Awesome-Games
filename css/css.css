@@ -79,3 +79,15 @@ margin: 10px 0px 0px 0px;
 border-radius:20px;
 box-shadow:-5px 5px rgba(0,0,0,0.0);
 }
+
+.hittaoss{
+height:600px;
+width:320px;
+background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+float:left;
+margin: 65px 20px 10px 0px;
+border:20px,20px,20px,20px;
+border-radius: 15px;
+text-align: center;
+box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
+}
