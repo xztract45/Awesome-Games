@@ -26,12 +26,18 @@
 	transform:scale(1.08);
 }
 .Container {
+	border-bottom-right-radius: 2em 1.3em;
+	height:65px;
 	float: left;
 	width:auto;
-	margin-left: 40px;
-	margin-right: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
-h2,p{
+.Container:hover {
+	background-color:#0066ff
+	}
+
+h2,p,h3{
 	color: black;
 	font-family: mentone-semibol;
 	text-decoration: none;
@@ -53,11 +59,22 @@ form {
 }
 
 .beskrivning{
-height:800px;
+height:600px;
 width:600px;
 background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
-float:right;
+float:left;
 margin: 65px 20px 10px 0px;
+border-radius: 15px;
+text-align: center;
+box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
+}
+.ossbild{
+height:600px;
+width:500px;
+background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+float:left;
+margin: 65px 20px 10px 0px;
+border:20px,20px,20px,20px;
 border-radius: 15px;
 text-align: center;
 box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
@@ -76,3 +93,24 @@ box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
     padding: 10px;
     margin: 12px  auto 50px;
     overflow: hidden; /* Clear floats *//
+}
+
+
+#fathers {
+margin: 10px 0px 0px 0px;
+border-radius:20px;
+box-shadow:-5px 5px rgba(0,0,0,0.0);
+}
+
+.Contact{
+height:600px;
+width:320px;
+background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+float:left;
+margin: 65px 20px 10px 0px;
+border:20px,20px,20px,20px;
+border-radius: 15px;
+text-align: center;
+box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
+}
+
