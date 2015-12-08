@@ -10,7 +10,7 @@
 	background: linear-gradient(to right, #FF8400 0%,#ff423a 100%);
 	position: fixed;
 	width: 100.5%;
-	height: 65px;
+	height: 10.1%;
 	margin-top:-10px;
 	margin-left:-10px;
 	border-bottom-right-radius: 2em 1.3em;
@@ -19,7 +19,7 @@
 }
 .Logo {
 	float: left;
-	margin: 8px;
+	margin: 0.69%;
 	transition: all 0.7s ease;
 }
 .Logo:hover {
@@ -84,30 +84,26 @@ box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 
 #searchbox
 {
-background-color: #507BAB;
-background-image: linear-gradient(#1A4884, #0FC6EA);
-border-radius: 5px 23px 23px 5px;
 width: 23.6%;
-height: auto;
-padding: 0.7%;
-margin: 0.5% auto;
+height:55%;
+padding: 0.55%;
+margin: 0.55% auto;
 overflow: hidden;
 }
 
 
 #search {
-    padding: 5px 9px;
-    height: 23px;
-    width: 200px;
-    border: 1px solid #a4c3ca;
-    font: normal 13px 'trebuchet MS', arial, helvetica;
-    background: #f1f1f1;
-    border-radius: 50px 3px 3px 50px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+padding: 1.93%;
+height: 64%;
+width: 60%;
+border: 1px solid #B1A9B1;
+font: normal 13px 'trebuchet MS', arial, helvetica;
+border-radius: 50px 3px 3px 50px;
 }
 
 
 #submit {
+	float:right;
     background-color: #FF4935;
     background-image: linear-gradient(#FF4537, #FF8401);
     border-radius: 3px 50px 50px 3px;
@@ -123,6 +119,7 @@ overflow: hidden;
     font: bold 14px Arial, Helvetica;
     color: #23441e;
     text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    text-align: center;
 }
 
 #submit:hover {       
@@ -132,7 +129,6 @@ overflow: hidden;
 
 #submit:active {       
     background: #FF651C;
-    outline: none;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
 }
 
