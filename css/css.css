@@ -36,7 +36,9 @@
 .Container:hover {
 	background-color:#0066ff
 	}
-
+.Container:active {
+	 box-shadow: 8px 0 5px 0px rgba(0, 0, 0, 0.5) inset;
+}
 h2,p,h3{
 	color: black;
 	font-family: mentone-semibol;
@@ -82,19 +84,61 @@ box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 
 #searchbox
 {
-    background-color: #eaf8fc;
-    background-image: linear-gradient(#fff, #d4e8ec);
-    border-radius: 35px;    
-    border-width: 1px;
-    border-style: solid;
-    border-color: #c4d9df #a4c3ca #83afb7;            
-    width: 250px;
-    height: auto;
-    padding: 10px;
-    margin: 12px  auto 50px;
-    overflow: hidden; /* Clear floats *//
+background-color: #507BAB;
+background-image: linear-gradient(#1A4884, #0FC6EA);
+border-radius: 5px 23px 23px 5px;
+width: 23.6%;
+height: auto;
+padding: 0.7%;
+margin: 0.5% auto;
+overflow: hidden;
 }
 
+
+#search {
+    padding: 5px 9px;
+    height: 23px;
+    width: 200px;
+    border: 1px solid #a4c3ca;
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 50px 3px 3px 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+}
+
+
+#submit {
+    background-color: #FF4935;
+    background-image: linear-gradient(#FF4537, #FF8401);
+    border-radius: 3px 50px 50px 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FF7D72 #FF651C #FF8302;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 35px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    width: 90px;
+    cursor: pointer;
+    font: bold 14px Arial, Helvetica;
+    color: #23441e;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+#submit:hover {       
+    background-color: #95d788;
+    background-image: linear-gradient(#FFD000, #ff6600);
+}   
+
+#submit:active {       
+    background: #FF651C;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#submit::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
 
 #fathers {
 margin: 10px 0px 0px 0px;
