@@ -41,7 +41,7 @@
 .Container:active {
 	 box-shadow: 8px 0 5px 0px rgba(0, 0, 0, 0.5) inset;
 }
-h2,p,h3{
+h2,p,h3,form,input{
 	color: black;
 	font-family: mentone-semibol;
 	text-decoration: none;
@@ -165,194 +165,24 @@ input {
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
 
-<<<<<<< HEAD
-.big{
-	margin:  5.5% 1% 2% 1%;
-	float:left;
+.Register{
 	height:100%;
-	width:100%;
-}
-
-.itemContainer{
-	background-color:rgb(160,160,160);
-	height:300px;
-	width:200px;
-	border:solid black 5px;
-	margin:10px 0px 0px 10px;
-	border-radius:25px;
-}.itemContainer:hover{
-		background-color:rgb(145,145,145);
-}
-
-.itemPicture{
-	height:150px;
-	width:176px;
-	margin:10px 0px 0px 10px;
-	border:solid black 2px;
-	border-bottom:0px;
-	border-radius:20px 20px 0px 0px;
-}
-.itemPicture img{
-	height:150px;
-	width:176px;
-	border-radius:20px 20px 0px 0px;
-}
-
-.itemName{
-	background-color:white;
-	height:15px;
-	width:166px;
-	margin-left:10px;
-	padding:5px 5px 0px 5px;
-	border-left:solid black 2px;
-	border-right:solid black 2px;
-}
-.itemName p{
-	margin:0px 0px 0px 0px;
-	text-align:center;
-	font-weight:bold;
-	font-size:25px;
-}
-
-.itemInfoBox{
-	background-color:white;
-	height:53px;
-	width:166px;
-	margin:0px 0px 0px 10px;
-	padding:7px 5px 0px 5px;
-	border-left:solid black 2px;
-	border-right:solid black 2px;
-}
-.itemInfoBox p{
-	margin:0px;
-	word-break:break-all;
-}
-
-
-.itemPrice{
-	background-color:white;
+	width:300px;
+	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
 	float:left;
-	height:46px;
-	width:112px;
-	border-radius:0px 0px 0px 20px;
+	margin:  5% 5% 5% 5%;
+	border:20px,20px,20px,20px;
+	border-radius: 15px;
+	text-align: center;
+	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
-.itemPrice p{
-	color:red;
-	margin:12px 0px 0px 0px; /* To center text vertically */
-	text-align:center;
-	font-size:25px;
-	font-weight:bold;
+.username{
+	height:85px;
+	width:250px;
+	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+	float:center;
+	margin:  3px 10px 3px 25px;
+	border-radius: 15px;
+	text-align: center;
+	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
-
-.itemButtonContainer{
-	background-color:white;
-	width:166px;
-	height:46px;
-	margin:0px 0px 0px 10px;
-	padding:0px 5px 0px 5px;
-	border:solid black 2px;
-	border-top:0px;
-	border-radius:0px 0px 20px 20px;
-}
-
-.itemBuyButton{
-	margin:7px 0px 5px 0px;
-	float:right;
-	height:30px;
-	width:50px;
-	color:white;
-	border:solid black 2px;
-	background-color:rgb(100,200,100);
-	border-radius:20px;
-}
-.itemBuyButton:hover{
-	background-color:rgb(80,180,80);
-}
-.itemBuyButton :active {
-	color:red;
-} 
-.itemBuyButton p{
-	margin:0px 0px 0px 0px;
-	text-align:center;
-	font-size:25px;
-}
-@-webkit-keyframes exempel {
-    from {top:-100px;opacity: 0;}
-    to {top:0px;opacity:1;}
-}
-@keyframes exempel {
-    from {top:-100px;opacity: 0;}
-    to {top:0px;opacity:1;}
-}
-
-.infoDisplay {
-  display: none;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-
-.infoDisplay:target {
-  display: table;
-  position: absolute;
-}
-
-
-.infoDisplay .infoContainer {
-  display: table-cell;
-  vertical-align: middle;
-  
-}
-
-.infoDisplay .infoContainer .infoContentContainer {
-  margin: auto;
-  background-color: #f3f3f3;
-  position: relative;
-  padding: 0;
-  outline: 0;
-  border: 1px #777 solid;
-  text-align: justify;
-  width: 230px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  -webkit-animation-name: exempel; 
-  -webkit-animation-duration: 0.5s;
-  animation-name: exempel;
-  animation-duration: 0.5s;
-}
-
-.infoDisplay .infoContainer .infoContentContainer .closebtn {
-margin-top:-30px;
-  text-decoration: none;
-  float: right;
-  font-size: 35px;
-  font-weight: bold;
-  color: #000;
-}
-
-.infoDisplay .infoContainer .infoContentContainer .infoContent {
-  background-color: #5cb85c;
-  font-size: 25px;
-  color: white;
-}
-.infoDisplay .infoContainer .infoContentContainer .infoContent h2{
-  text-align:center;
-  font-size: 25px;
-  color: white;
-}
-
-.unselectable {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-=======
->>>>>>> origin/fredrik
