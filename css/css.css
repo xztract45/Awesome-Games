@@ -1,6 +1,5 @@
 .Background {
-    background-color: rgba(0,102,255,0.8px);
-    background-image: url(../images/blueback.jpg);
+    background-color: rgba(0,102,255,0.8);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -8,6 +7,7 @@
 .Header {
 	background: linear-gradient(to right, #FF8400 0%,#ff423a 100%);
 	position: fixed;
+	min-width: 1150px; 
 	width: 100.5%;
 	height: 65px;
 	margin-top:-10px;
@@ -75,41 +75,40 @@ form {
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
 .ossbild{
-	height:100%;
-	width:30%;
-	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
-	float:left;
-	margin: 5.5% 1% 2% 1%;
-	border:20px,20px,20px,20px;
-	border-radius: 15px;
-	text-align: center;
-	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
+height:100%;
+width:30%;
+background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+float:left;
+margin: 5.5% 1% 2% 1%;
+border:20px,20px,20px,20px;
+border-radius: 15px;
+text-align: center;
+box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
 
-#searchbox
-{
-width: 23.6%;
-height:55%;
-padding: 0.55%;
-margin: 0.55% auto;
+
+#searchbox {
+width: 320px;
+height: 28px;
+padding: 8px;
+margin: 8px;
 overflow: hidden;
 }
 
 
 #search {
-padding: 1.93%;
-height: 64%;
-width: 60%;
+padding: 7px;
+height: 20px;
+width: 190px;
 border: 1px solid #B1A9B1;
 font: normal 13px 'trebuchet MS', arial, helvetica;
 border-radius: 50px 3px 3px 50px;
 outline: none;
-
 }
 
 
 .submit {
-float:right;
+float: right;
 background-color: #FF4935;
 background-image: linear-gradient(#FF4537, #FF8401);
 border-radius: 3px 50px 50px 3px;
@@ -117,7 +116,7 @@ border-width: 1px;
 border-style: solid;
 border-color: #FF7D72 #FF651C #FF8302;
 box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-height: 35px;
+height: 33.7px;
 margin: 0 0 0 10px;
 padding: 0;
 width: 90px;
@@ -127,8 +126,8 @@ color: #23441e;
 text-shadow: 0 1px 0 rgba(255,255,255,0.5);
 text-align: center;
 outline: none;
-
 }
+
 input {
 	user-select: text;
 }
