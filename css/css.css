@@ -65,23 +65,25 @@ form {
 }
 
 .beskrivning{
+	border: 2px solid black;
 	height:100%;
 	width:40%;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
 	float:left;
 	margin: 5.5% 1% 2% 1%;
-	border-radius: 15px;
+	border-radius: 3px;
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
 .ossbild{
+	border: 2px solid black;
 	height:100%;
 	width:30%;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
 	float:left;
 	margin: 5.5% 1% 2% 1%;
 	border:20px,20px,20px,20px;
-	border-radius: 15px;
+	border-radius: 3px;
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
@@ -154,35 +156,50 @@ input {
 }
 
 .Contact{
+	border: 2px solid black;
 	height:100%;
-	width:24%;
+	width:23%;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
 	float:left;
 	margin:  5.5% 1% 2% 1%;
 	border:20px,20px,20px,20px;
-	border-radius: 15px;
+	border-radius: 3px;
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
 
 .Register{
-	height:100%;
+	border: 2px solid black;
+	height:560px;
 	width:300px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
-	float:left;
-	margin:  5% 5% 5% 5%;
-	border:20px,20px,20px,20px;
-	border-radius: 15px;
+	float:right;
+	margin-top:  5%;
+	margin-right:27%;
+	border-radius: 3px;
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
 .username{
+	border:2px solid black;
 	height:85px;
 	width:250px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
-	float:center;
-	margin:  3px 10px 3px 25px;
-	border-radius: 15px;
+	margin:  3px 3px 3px 25px;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
+}
+.Sign_in{
+	border: 3px solid black;
+	height:300px;
+	width:300px;
+	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+	float:left;
+	margin:  5% 0px 5% 5%;
+	margin-left:27%;
+	border:20px,20px,20px,20px;
+	border-radius: 3px;
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
