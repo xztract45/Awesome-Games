@@ -11,12 +11,9 @@ font-size: 80%;
 	width:200px;
 	border:solid black 2px;
 	margin:75px 10px 0px 0px;
-	border-radius:25px;
+	border-radius:8px;
 	transition: all 0.3s ease;
 	float:left;
-}.itemContainer:hover{
-	background: linear-gradient(to right,#ff423a 0% ,#FF8400 100%);
-	transform:scale(1.01);
 }
 .itemPicture{
 	height:150px;
@@ -100,6 +97,8 @@ font-size: 80%;
 }
 .itemBuyButton:hover{
 	background: #F00000;
+	transform:scale(1.01);
+
 }
 .itemBuyButton :active {
 	color:#F00000;
