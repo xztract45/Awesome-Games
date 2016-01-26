@@ -63,33 +63,42 @@ a {
 form {
 	margin-top: 23.5px;
 }
-
-.beskrivning{
-	border: 2px solid black;
-	height:100%;
-	width:40%;
-	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
-	float:left;
-	margin: 5.5% 1% 2% 1%;
-	border-radius: 3px;
-	text-align: center;
-	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
-}
 .ossbild{
 	border: 2px solid black;
 	height:100%;
-	width:30%;
+	width:400px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
 	float:left;
-	margin: 5.5% 1% 2% 1%;
+	margin:75px 10px 0px 0px;
 	border:20px,20px,20px,20px;
 	border-radius: 3px;
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 
 }
-
-
+.beskrivning{
+	border: 2px solid black;
+	height:100%;
+	width:550px;
+	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+	float:left;
+	margin:75px 10px 0px 0px;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
+}
+.Contact{
+	border: 2px solid black;
+	height:100%;
+	width:300px;
+	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+	float:left;
+	margin:75px 10px 0px 0px;
+	border:20px,20px,20px,20px;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
+}
 #searchbox {
 width: 320px;
 height: 28px;
@@ -156,27 +165,14 @@ input {
 	box-shadow:-5px 5px rgba(0,0,0,0.0);
 }
 
-.Contact{
-	border: 2px solid black;
-	height:100%;
-	width:23%;
-	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
-	float:left;
-	margin:  5.5% 1% 2% 1%;
-	border:20px,20px,20px,20px;
-	border-radius: 3px;
-	text-align: center;
-	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
-}
 
 .Register{
 	border: 2px solid black;
 	height:560px;
 	width:300px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
-	float:right;
-	margin-top:  5%;
-	margin-right:27%;
+	float:left;
+	margin:75px 50px 0px 0px;
 	border-radius: 3px;
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
@@ -197,8 +193,7 @@ input {
 	width:300px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
 	float:left;
-	margin:  5% 0px 5% 5%;
-	margin-left:27%;
+	margin:75px 50px 0px 50px;
 	border:20px,20px,20px,20px;
 	border-radius: 3px;
 	text-align: center;
