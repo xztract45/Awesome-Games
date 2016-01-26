@@ -191,8 +191,8 @@ input {
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
 .Sign_in{
-	border: 3px solid black;
-	height:300px;
+	border: 2px solid black;
+	height:265px;
 	width:300px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
 	float:left;
