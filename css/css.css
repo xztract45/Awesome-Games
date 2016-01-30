@@ -41,7 +41,7 @@
 .Container:active {
 	 box-shadow: 8px 0 5px 0px rgba(0, 0, 0, 0.5) inset;
 }
-h2,p,h3,form,input{
+h2,p,h3,form,input,h1{
 	color: black;
 	font-family: mentone-semibol;
 	text-decoration: none;
@@ -199,7 +199,35 @@ input {
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
+.welcome{
+	position: relative;
+	float:left;
+	border: 2px solid black;
+	height:80px;
+	width:1250px;
+	margin:40px 0px 0px 0px;
+	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+	border-radius: 3px;
+	text-align: center;
+	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
+}
+.deals{
+	border: 2px solid black;
+	height:296px;
+	width:550px;
+	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
+	float:right;
+	margin:10px 55px 0px 0px;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
+}
+#hotnow{
+	float:left;
+	margin: 0px 0px 0px 15px;
+	box-shadow:-5px 5px rgba(0,0,0,0.0);
+}
 .java{
 	float:left;
-	margin:75px 50px 0px 50px;
+	margin:0px 0px 0px 0px;
 }
