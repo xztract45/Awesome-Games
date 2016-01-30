@@ -172,7 +172,7 @@ input {
 	width:300px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
 	float:left;
-	margin:75px 50px 0px 0px;
+	margin:75px 0px 0px 0px;
 	border-radius: 3px;
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
