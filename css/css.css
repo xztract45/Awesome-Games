@@ -204,7 +204,7 @@ input {
 	float:left;
 	border: 2px solid black;
 	height:80px;
-	width:1250px;
+	width:90.8%;
 	margin:40px 0px 0px 0px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
 	border-radius: 3px;
@@ -213,21 +213,27 @@ input {
 }
 .deals{
 	border: 2px solid black;
-	height:296px;
-	width:550px;
+	height:307px;
+	width:620px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
-	float:right;
-	margin:10px 55px 0px 0px;
+	float:left;
+	margin:75px 10px -50px 10px;
 	border-radius: 3px;
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
 }
 #hotnow{
 	float:left;
-	margin: 0px 0px 0px 15px;
+	margin: 0px 0px 0px 28px;
 	box-shadow:-5px 5px rgba(0,0,0,0.0);
 }
 .java{
+	border: 2px solid black;
 	float:left;
 	margin:0px 0px 0px 0px;
+}
+.price{
+	float:left;
+	width:153px;
+	height:30px;
 }
