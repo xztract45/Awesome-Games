@@ -204,7 +204,7 @@ input {
 	float:left;
 	border: 2px solid black;
 	height:80px;
-	width:1250px;
+	width:90.8%;
 	margin:40px 0px 0px 0px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
 	border-radius: 3px;
@@ -216,8 +216,8 @@ input {
 	height:296px;
 	width:550px;
 	background: linear-gradient(to bottom, #FF8400 0%,#ff423a 100%);
-	float:right;
-	margin:10px 55px 0px 0px;
+	float:left;
+	margin:70px 0px 0px 0px;
 	border-radius: 3px;
 	text-align: center;
 	box-shadow:-3.5px 3.5px 3.5px rgba(0,0,0,0.7);
@@ -228,6 +228,12 @@ input {
 	box-shadow:-5px 5px rgba(0,0,0,0.0);
 }
 .java{
+	border: 2px solid black;
 	float:left;
 	margin:0px 0px 0px 0px;
+}
+.price{
+	float:left;
+	width:137px;
+	height:30px;
 }
