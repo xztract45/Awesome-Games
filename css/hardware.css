@@ -10,7 +10,7 @@ font-size: 80%;
 	height:307px;
 	width:200px;
 	border:solid black 2px;
-	margin:75px 10px 0px 0px;
+	margin:75px 10px -50px 0px;
 	border-radius:8px;
 	transition: all 0.3s ease;
 	float:left;
