@@ -1,11 +1,11 @@
 p{
-font-size: 80%;
+font-size: 80%;/*storlek text*/
 }
 .big{
-	height:100%;
+	height:100%;/*en stor container där alla andra containers finns innuti.*/
 	width:100%;
 }
-.itemContainer{
+.itemContainer{/*denna container inehåller alla de mindre containersarna, samt som denna bestämmer storleken för bakgrunden.*/
 	height:307px;
 	width:200px;
 	margin:75px 10px -50px 0px;
@@ -13,7 +13,7 @@ font-size: 80%;
 	transition: all 0.3s ease;
 	float:left;
 }
-.itemPicture{
+.itemPicture{/*bildens container*/
 	height:150px;
 	width:176px;
 	margin:10px 0px 0px 10px;
@@ -21,12 +21,12 @@ font-size: 80%;
 	border-bottom:0px;
 	border-radius:20px 20px 0px 0px;
 }
-	.itemPicture img{
+	.itemPicture img{/*bilden.*/
 	height:150px;
 	width:176px;
 	border-radius:20px 20px 0px 0px;
 }
-.itemName{
+.itemName{/*titeln för produkten*/
 	background:linear-gradient(to right, #FF8400 0%,#ff423a 100%);
 	width:166px;
 	margin-left:10px;
@@ -34,14 +34,14 @@ font-size: 80%;
 	border-left:solid black 2px;
 	border-right:solid black 2px;
 }
-.itemName p{
+.itemName p{/*detta bestämmer texten på titeln*/
 	margin:0px 0px 0px 0px;
 	text-align:center;
 	font-weight:bold;
 	font-size:25px;
 }
 
-.itemInfoBox{
+.itemInfoBox{/*info rutan i under titeln och bilden.*/
 	background:linear-gradient(to right, #FF8400 0%,#ff423a 100%);
 	height:53px;
 	width:166px;
@@ -51,13 +51,13 @@ font-size: 80%;
 	border-right:solid black 2px;
 	padding-top: 15px;
 }
-.itemInfoBox p{
+.itemInfoBox p{/*texten för info rutan.*/
 	margin:0px;
 	word-break:break-all;
 }
 
 
-.itemButtonContainer{
+.itemButtonContainer{ /*container som köp knappen ligger i.*/
 	background:linear-gradient(to right, #FF8400 0%,#ff423a 100%);
 	width:166px;
 	height:46px;
@@ -68,7 +68,7 @@ font-size: 80%;
 	border-radius:0px 0px 20px 20px;
 }
 
-.itemBuyButton{
+.itemBuyButton{/*köp knappens container */
 	margin:10px -2px 0px 0px;
 	float:right;
 	height:30px;
@@ -80,35 +80,35 @@ font-size: 80%;
 	font-size: 10px;
 }
 
-.itemBuyButton img{
+.itemBuyButton img{/*köp knappens bild storlek.*/
 	margin:0px 10px 0px 0px;
 	float:right;
 	display: block;
 	margin-right: 5px;
 }
-.itemBuyButton p{	
+.itemBuyButton p{	/*texten i knappen.*/
 	float: left;
 	margin:2px 0px 0px 10px;
 	text-align:center;
 	font-size:20px;
 }
-.itemBuyButton:hover{
+.itemBuyButton:hover{/*knappen blir något större när man håller musen över den.*/
 	background: #F00000;
 	transform:scale(1.01);
 
 }
-.itemBuyButton :active {
+.itemBuyButton :active {/*knappen ändrar färg när den blir clickad på*/
 	color:#F00000;
 } 
-@-webkit-keyframes exempel {
+@-webkit-keyframes exempel {/*animation*/
     from {top:-100px;opacity: 0;}
     to {top:0px;opacity:1;}
 }
-@keyframes exempel {
+@keyframes exempel {/*animation*/
     from {top:-100px;opacity: 0;}
     to {top:0px;opacity:1;}
 }
-.infoDisplay {
+.infoDisplay {/*så att bakgrunden blir lite fadad.*/
   display: none;
   position: fixed;
   left: 0;
